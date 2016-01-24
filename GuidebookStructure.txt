@@ -1,0 +1,42 @@
+1 Outline of what Backdrop CMS does
+1.1 Appearance of your website (themes and styles)
+1.2 User permissions – who can do what
+1.3 What makes a page (concept of nodes, layouts, blocks, navigation)
+1.4 Revisions and backups
+1.5 Roles of site designer and administrator
+1.6 Getting Started – logging in
+
+2 Controlling content
+2.1 Editing text
+2.2 Adding images
+2.3 Uploading documents 
+2.5 Links and anchors 
+2.6 Content types 
+2.7 Page layout 
+2.8 The Home Page
+
+3 Navigation 
+3.1 Main menu 
+3.2 Secondary menu 
+3.3 User-friendly URLs 
+3.4 Exclude from menu
+
+4 Comments 
+4.1 Allowing comments 
+4.2 User registration 
+4.3 Removing comments
+
+5 Basic administration 
+5.1 Admin menu 
+5.2 Finding content 
+5.3 File folders 
+5.4 Reports 
+5.5 Software updates
+
+6 Opportunities 
+6.1 Changing the appearance 
+6.2 Adding functionality (contributed modules) 
+6.3 Customised views 
+6.4 Linking social media 
+6.5 Other resources 
+6.6 Getting help
