@@ -1,0 +1,208 @@
+Backdrop CMS User Guide
+An introductory guide for site editors
+1 Outline of what Backdrop CMS does
+Congratulations on becoming a Site Editor for a website that is created and managed using a 
+powerful open-source Content Management System called Backdrop CMS.
+This guide is intended to help you get started with managing your website content, for 
+example editing existing pages and adding new content. System administration tasks such as 
+adding new features to Backdrop or updating with new releases are covered in separate 
+technical guide.
+Backdrop is a powerful system, developed by a voluntary community of experts, building on 
+the years of experience and software developed for the well-established Drupal system, but 
+focussing in particular on the needs of Small and Medium businesses and organizations. You 
+can read more about it on their website at www.backdropcms.org
+One of the main aims of Backdrop is to provide a system that is easy to use, whilst retaining 
+the power and flexibility of a fully comprehensive Content Management System (CMS). 
+Backdrop is software that runs on a webserver, and comprises the Core System and a 
+growing collection of optional Contributed Modules.
+ 
+1.1 Appearance of your website (themes and styles)
+A Backdrop website can assume a very wide variety of appearance. This appearance is set for 
+you by the designer who determines the theme and styles used for your site. However, there 
+will be some options available for you, the editor, to use, such as size and weight of text, page 
+layout and use of images. If you want some changes discuss them with your designer. [You 
+may of course be the designer yourself, or learn how to tackle some of these things.]
+1.2 User permissions – who can do what
+What you can and cannot do with your website is very rigorously controlled by Backdrop’s 
+system of User Permissions. You may have only been granted permission to edit certain 
+pages on the site, or you may have full editorial control over all the content; your System 
+Administrator will have set these permissions, which are for the benefit of all since they 
+restrict inadvertent change to something in the site. If there is something you need to change 
+but cannot, ask your System Administrator whether you can be authorised to do so.
+1.3 What makes a page (concept of nodes, layouts, blocks, navigation)
+Visitors to your site will see it as a collection of pages, but actually each page that appears on 
+the screen is made up of a number of elements put together by Backdrop to make up the page 
+layout you see. Backdrop takes care of building the whole page including navigation menus, 
+columns and footers, leaving you with the simpler task of making sure that each element has 
+the right text and images.
+The simplest Backdrop system will come with two types of Content, called Basic Page and 
+Article. Other types of content will probably have been added by your Site Designer who has 
+freedom to add all sorts of things, giving each type his own choice of name.
+Your site also comes with a choice of page Layout, for use in different situations. For 
+example your home page is likely to have one particular layout decided by your Site 
+Designer. The layout determines what Blocks are used on the page and where they are 
+placed. They control, for example, the use of columns on the page. Whether you can alter a 
+layout or create a new one depends on your User Permissions.
+In the next chapter we will explore some of these features.
+1.4 Revisions and backups
+One important thing that can be done is to keep a record of any changes that editors have 
+made, with the option to revert to a previous version if any problem arises.
+There are two mechanisms for doing this. The first is that when you edit a node, you tick a 
+box to tell Backdrop to create a new revision of the node, storing a copy of the one you are 
+replacing. The second mechanism is the optional Backup and Migrate module which will 
+make a backup copy of all the content data settings for your website.
+It is likely that your system administrator will have set this module to run periodically and 
+keep a limited number of previous backups of your website. He would also arrange for 
+backups of all the Backdrop software, including any optional Contributed Modules such as 
+Backup and Migrate.
+ 
+1.5 Roles of site designer and administrator
+The Site Administrator is the person who ensures the Backdrop system  keeps running on the 
+webserver and carries out any necessary updates of the software as new releases are made 
+available by the maintenance and development teams. When a new release becomes 
+available, the system administrator can very simply set your site to be in Maintenance 
+Mode, arrange for a system backup and then upload the new release of software to the server. 
+This is done within a matter of minutes and the site can then be returned to full operation.
+The Site Administrator also controls the assignment of User Permissions, the approval of 
+visitor comments (if required), and the addition of any new Contributed Modules if required 
+to add functions to the system.
+The Site Designer is the person who, starting from a basic Backdrop system, chooses and 
+adds the design theme for the site, probably including initial content of text and images. Of 
+course, the task can be much more than this, and include customised Javascript and Styles 
+Sheets to give the site its unique appearance. Ready-made themes are available that make this 
+role more straightforward.
+It may well be that the three roles of Site Editor, Designer and Administrator are actually 
+carried out by the same person, but for larger sites it is likely to be a team effort.
+
+1.6 Getting Started – logging in
+The system administrator will have told you the address (URL) of your site, your username 
+and initial password. To control your site you just have to use your favourite browser to go to 
+your home page, as in this example:
+ 
+This home page has a three column layout with a user login block in the left column and a 
+recent content block on the right. Both of these are optional: if your home page does not have 
+a user login block then you must enter into your browser the URL www.yoursite.com/user, 
+and the addition of /user will take you directly to a login page.
+Once you have logged in with your personal username and password, some extra items will 
+appear on the page, as below:
+ 
+A narrow horizontal band has appeared across the top of the page, containing the 
+administrative menu and the options available to you, limited by the user permissions that the 
+site administrator has granted you. The sections below will explain more about these items: 
+Content, Structure, Configuration.
+?
+2 Controlling content
+In this section we walk through some of the basic operations, with the aid of screenshots 
+taken from a simple working site. Because of the flexibility of Backdrop it is unlikely that 
+your site will look like this, but the administrative menus and functions should be the same or 
+very similar.
+2.1 Editing text
+Once you are logged in, the system will show ‘edit’ links for any item you are permitted to 
+edit. But first you need to be able to find the item, and there are basically two ways of doing 
+this. Method one is to navigate to the page you wish to edit, then select the edit key for the 
+content you wish to edit. In the example below I have started from my home page and 
+selected the ‘read more’ link at the foot of the summary displayed for my ‘Hello World’ 
+article. This takes me from summary to whole article view, with new admin tabs ‘view’ and 
+‘edit’ showing immediately below the article’s title, as shown here. Selecting ‘edit’ takes me 
+to the edit page – see next page of this guide.
+ 
+Method two is to select the page from the administrative list of content in the system. Do this 
+by selecting content > find content from the admin menu across the top of your page, to reveal the 
+Admin Content listing.
+ 
+From this listing we can select operation ‘Edit’ from the drop-down at the right, and thereby 
+open up the same edit window (shown on the next page).
+?
+There are many options for the appearance of the edit window in your Backdrop system, and 
+yours may not look exactly like this, but the principles are the same. It provides WYSIWYG 
+(what you see is what you get) editing, with a set of tool icons similar to those you get with a 
+wordprocessor. Here is a screenshot of the upper part:
+ 
+Within the edit window you can type any amendments or additional text and see 
+approximately what it will look like on the final page. In addition to the normal word 
+processing tool icons, there are two formatting ‘drop down’ menus shown here – ‘Format’ 
+and ‘Styles’. These enable you to select different formats or styles for headings, paragraphs, 
+phrases or words. These are explained in more detail later in this guide, as too is the addition 
+of images.
+The lower part of the page (an example is shown below) contains an optional set of selectors 
+for essential control information. You are unlikely to see all those shown in this example 
+because you will not have all the required ‘permissions’. For the moment just note in this 
+example the publishing option tick-box enabling you to have the page ‘published’ or  ‘not 
+published’. This is only possible for content that you originally created and are the owner, 
+unless you have administrative status.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+2.2 Adding images
+Whilst using the edit window you can insert an image, either from those already stored for 
+your website, or from your terminal (PC, Mac, tablet etc.). Your Backdrop system will have 
+an in-built Image File Manager that enables you to select an image file stored in your 
+terminal, upload it to file storage within your webserver, and insert it on your page, 
+controlling size and positon as you do so.
+The process involves a few simple steps as follows:
+Step 1 : In your edit page put your cursor right at the start of the paragraph where you want 
+your image to appear. Later you will choose whether to have the image on the left of the right 
+of your paragraph. If you want your image to be in a separate paragraph, first create the new 
+paragraph, then before adding the image to the empty paragraph, set the paragraph alignment 
+to left, centre or right as required.
+Step 2 : Use the edit tool icon for ‘Image’ to bring up an Image Properties menu like this:
+ 
+Step 3 : Use ‘Browse Server’ to open a File Browser window and view the list of files already 
+stored by Backdrop for your website. Here below you can see only two files listed, either 
+select one of these and go to step 6, or go to step 4 to upload another file.
+ 
+Step 4 : Select ‘upload’ from the upper left of the File Browser Window to open a file 
+browsing menu:
+ 
+Step 5 : Use ‘browse’ in the browsing menu to find the image file on your terminal’then 
+select upload to get a screen like this in which your uploaded file is now on the server, and 
+highlighted in the listing, with a preview shown in the lower part of the screen.
+ 
+Step 6 : Select ‘Insert File’ from the choices along the upper part of the File Browser 
+window. The image will now be added to your editing page, above the paragraph you aimed 
+for. You now need to adjust its size and position.
+Step 7 : The ‘Image Properties’ menu will now be on your screen (see below). In this menu 
+you can enter a new size, using the width and/or height fields to enter a new value in pixels 
+(note that this is intended for reducing the size, not for increasing it because that would cause 
+blurring of the image). Use the ‘align’ field to choose whether you want the image to be at 
+the left or right of your paragraph. Enter a value in the Hspace field, for example 20, to add 
+that number of pixels of white space between the image and the text.
+?
+ 
+Step 9 : When you select ‘OK’ in the Image Properties menu you Editing page will look 
+something like the screenshot below. If you are not happy with the size or placing of the 
+image, you can ‘right click’ on it and select ‘Image Properties’ to bring back the menu and 
+change a setting. Once you are satisfied that the image is correct, select ‘Save’ at the bottom 
+of the editing page. You can, of course, always come back and re-edit the page later.
+ 
+
+?
+ 
+2.3 Uploading documents 
+2.5 Links and anchors 
+2.6 Content types 
+2.7 Page layout 
+2.8 The Home Page
+3 Navigation 
+3.1 Main menu 
+3.2 Secondary menu 
+3.3 User-friendly URLs 
+3.4 Exclude from menu
+4 Comments 
+4.1 Allowing comments 
+4.2 User registration 
+4.3 Removing comments
+5 Basic administration 
+5.1 Admin menu 
+5.2 Finding content 
+5.3 File folders 
+5.4 Reports 
+5.5 Software updates
+6 Opportunities 
+6.1 Changing the appearance 
+6.2 Adding functionality (contributed modules) 
+6.3 Customised views 
+6.4 Linking social media 
+6.5 Other resources 
+6.6 Getting help
+Draft version 2 – 14th April 2015
+
